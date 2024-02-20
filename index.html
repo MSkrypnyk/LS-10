@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelancer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="welcome">
+      <header class="header">
+        <div class="container header__container">
+          <a href="#" class="header__logo">Freelancer <span>portfolio</span></a>
+          <input id="headerIcon" type="checkbox" />
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li">
+                <a href="#projects" class="header__a is-active">Projects</a>
+              </li>
+              <li class="header__li">
+                <a href="#" class="header__a">Skills</a>
+              </li>
+              <li class="header__li">
+                <a href="#" class="header__a">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <label for="headerIcon" class="header__menu">
+            <span class="material-icons"> menu_open </span>
+          </label>
+        </div>
+      </header>
+      <div class="welcome__content">
+        <div class="welcome__title">
+          Hi, my name is
+          <h1>Yuri</h1>
+        </div>
+        <p class="welcome__desc">a frontend developer</p>
+        <p class="welcome__desc-secondary">
+          with passion for learning and creating.
+        </p>
+        <a href="#" class="btn welcome__btn">Download CV</a>
+      </div>
+    </section>
+    <section id="projects" class="container projects">
+      <h2 class="projects__title">Projects</h2>
+      <div class="projects__list">
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/01.png" alt="Gaming streaming portal"
+          /></a>
+          <h4 class="projects__item-title">Gaming streaming portale</h4>
+        </div>
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/02.png" alt="Video service"
+          /></a>
+          <h4 class="projects__item-title">Video service</h4>
+        </div>
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/03.png" alt="Video portal"
+          /></a>
+          <h4 class="projects__item-title">Video portal</h4>
+        </div>
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/04.png" alt="Dating app"
+          /></a>
+          <h4 class="projects__item-title">Dating app</h4>
+        </div>
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/05.png" alt="Landing"
+          /></a>
+          <h4 class="projects__item-title">Landing</h4>
+        </div>
+        <div class="projects__item">
+          <a class="projects__item-img" href="#"
+            ><img src="images/projects/02.png" alt="Gaming community"
+          /></a>
+          <h4 class="projects__item-title">Gaming community</h4>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="#"><img src="icons/social/vk.svg" alt="vk" /></a>
+        <a href="#"><img src="icons/social/instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="icons/social/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="icons/social/gitHub.svg" alt="gitHub" /></a>
+        <a href="#"><img src="icons/social/linkedIn.svg" alt="linkedIn" /></a>
+      </div>
+      <p class="footer__desc">© 2022 frontend-dev.com</p>
+    </footer>
+  </body>
+</html>
